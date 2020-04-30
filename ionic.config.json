@@ -1,5 +1,7 @@
 {
   "name": "Myfirstionic",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
