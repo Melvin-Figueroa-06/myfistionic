@@ -4,19 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { FeedPageRoutingModule } from './feed-routing.module';
+import { Home1PageRoutingModule } from './home1-routing.module';
 
-
-import { FeedPage } from './feed.page';
+import { Home1Page } from './home1.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    FeedPageRoutingModule
-    
+    Home1PageRoutingModule
   ],
-  declarations: [FeedPage]
+  declarations: [Home1Page]
 })
-export class FeedPageModule {}
+export class Home1PageModule {}

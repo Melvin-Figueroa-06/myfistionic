@@ -4,19 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { FeedPageRoutingModule } from './feed-routing.module';
+import { FavoritesPageRoutingModule } from './favorites-routing.module';
 
-
-import { FeedPage } from './feed.page';
+import { FavoritesPage } from './favorites.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    FeedPageRoutingModule
-    
+    FavoritesPageRoutingModule
   ],
-  declarations: [FeedPage]
+  declarations: [FavoritesPage]
 })
-export class FeedPageModule {}
+export class FavoritesPageModule {}
